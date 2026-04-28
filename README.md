@@ -13,11 +13,21 @@ Characters not in the mapping show their real name unchanged.
 
 ## Installation
 
-Clone or copy the folder into your AddOns directory:
+Copy (or symlink) the `Renamer/` folder from this repo into your AddOns directory:
 
 ```
 World of Warcraft/_anniversary_/Interface/AddOns/Renamer/
 ```
+
+## ElvUI setup
+
+Add one of the `name:discord` tags to your raid frame's Name Text Format:
+
+**ElvUI → UnitFrames → Group Units → Raid → Name → Text Format**
+
+![ElvUI Name Format](docs/elvui-name-format.png)
+
+Example: `[classcolor][name:discord]`
 
 ## Usage
 
