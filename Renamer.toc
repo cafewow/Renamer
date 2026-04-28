@@ -1,0 +1,8 @@
+## Interface: 20504
+## Title: Renamer
+## Notes: Replaces guildie names in raid frames with their Discord nicknames
+## Author: Cafe
+## Version: 1.0
+## SavedVariables: RenamerDB
+
+Core.lua
